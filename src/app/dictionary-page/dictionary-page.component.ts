@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {DictionaryService} from '../dictionary.service';
 
 @Component({
   selector: 'app-dictionary-page',
@@ -7,7 +8,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class DictionaryPageComponent implements OnInit {
 
-  constructor() {
+  constructor(public dictionaryService: DictionaryService) {
   }
 
   ngOnInit() {
