@@ -30,4 +30,8 @@ export class DictionaryService {
     }
     return 'Not found';
   }
+
+  getAll(): IWord[] {
+    return this.words;
+  }
 }
