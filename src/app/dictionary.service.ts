@@ -10,11 +10,26 @@ export interface IWord {
 })
 export class DictionaryService {
   private words: IWord[] = [
-    {key: 'service', meaning: 'dịch vụ'},
-    {key: 'service provider', meaning: 'nhà cung cấp dịch vụ'},
-    {key: 'provide', meaning: 'cung cấp'},
-    {key: 'efficient', meaning: 'hiệu quả'},
-    {key: 'snow', meaning: 'tuyết'}
+    {
+      key: 'service',
+      meaning: 'dịch vụ'
+    },
+    {
+      key: 'service provider',
+      meaning: 'nhà cung cấp dịch vụ'
+    },
+    {
+      key: 'provide',
+      meaning: 'cung cấp'
+    },
+    {
+      key: 'efficient',
+      meaning: 'hiệu quả'
+    },
+    {
+      key: 'snow',
+      meaning: 'tuyết'
+    }
   ];
 
   constructor() {
